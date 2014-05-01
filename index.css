@@ -1,0 +1,130 @@
+body {
+background-color: #F5F5F5; /*define cor de fundo do site*/
+}
+
+#caixa_header{ /*define como sera a "caixa" onde ficará o header*/
+ background-color: #F5F5F5; 
+ height:160px;
+ width:100%;
+ margin-left: auto;
+ margin-right: auto;  
+}
+#header{ /*define o header*/
+line-height: 60px; 
+margin-top: 50px; 
+margin-left: auto;
+margin-right: auto;
+width:70%; 
+text-align:left;
+font-family: helvica;
+font-size: 250%;
+color:gray;
+}
+
+#caixa_conteudo { /*define como sera a "caixa" onde ficará todo o conteudo do site*/
+background-color: ; 
+height:500px;
+width:100%;
+margin-left: auto;
+margin-right: auto;  
+overflow:visible; 
+padding:1px 0; 
+}
+
+#conteudo{ /*define como será mostrado o conteudo do site*/
+line-height: 60px; 
+margin-top: 30px; 
+margin-left: auto;
+margin-right: auto;
+width:70%; 
+text-align:center;
+font-family: helvica;
+font-size: 60%;
+color:rgb(255, 102, 102);
+}
+
+
+#produtos{
+ width: 258px; 
+ height: 262px;
+}
+
+.exibicao {
+display: inline;
+margin-left: auto;
+margin-right: auto;
+width: 200px; 
+height: 200px;
+}
+
+
+#imagem{
+    width:200px;
+	height:200px;
+}
+
+#caixa_footer{
+ position:fixed;
+ bottom: 0;
+ left:0;
+ background-color: black; 
+ height:40px;
+ width:100%;
+ margin-left: auto;
+ margin-right: auto; 
+}
+
+#footer{
+line-height: 60px; 
+margin-top: 25px; 
+margin-left: auto;
+margin-right: auto;
+width:70%; 
+text-align:left;
+font-family: helvica;
+font-size: 250%;
+color:gray;
+}
+
+.menu1{ /*define como será o menu1*/
+ border: 3px solid black;
+ text-align: center;
+ word-spacing: 40px;
+ font-family: helvica;
+ font-size: x-large;
+ height: 28px; 
+ width: 70%; 
+ margin-left: auto;
+ margin-right: auto; 
+ background-color:white;
+}
+
+.menu2{ /*define como será o menu2 - menu fixo*/
+ position:fixed;
+ padding: 5px 0;
+ text-align: hight;
+ word-spacing: 2px;
+ font-family: helvica;
+ font-size: 115%;
+ color:white;
+ height: 40px; 
+ width: 100%;
+ top:0; 
+ left:0;
+ margin-left: auto;
+ margin-right: auto; 
+ background-color: black;
+}
+
+a:link { /*define como os links do site devem ficar antes de serem clicados*/
+ color:white;
+ text-decoration:none;
+}
+
+a:visited {/*define como os links do site devem ficar depois de serem clicados*/
+ color:white;
+ text-decoration:none;
+}
+
+
+
