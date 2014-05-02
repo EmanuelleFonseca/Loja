@@ -1,0 +1,262 @@
+body {
+background-color: white; /*define cor de fundo do site*/
+text-align:left;
+font-family: helvica;
+font-size: 120%;
+color:black; 
+}
+
+#caixa_header{ /*define como sera a "caixa" onde ficará o header*/
+ background-color: white; 
+ height:200px;
+ width:100%;  
+ margin-bottom:2px;
+ margin-top:30px;
+}
+#header{ /*define o header*/
+border-top:2px solid rgb(212, 212, 212);
+border-bottom: 2px solid rgb(212, 212, 212);
+line-height: 60px; 
+margin-top: 50px; 
+width:100%;
+height:198px;
+text-align:left;
+font-family: helvica;
+font-size: 100%;
+}
+
+#caixa_conteudo { /*define como sera a "caixa" onde ficará todo o conteudo do site*/
+background-color: rgb(212, 212, 212); 
+height:160%;
+width:100%;
+margin-bottom:2px;
+margin-left: auto;
+margin-right: auto;  
+text-align:center;
+overflow:auto;
+padding:1px 0;
+border-bottom: 2px solid rgb(212, 212, 212);
+
+}
+
+#conteudo{ /*define como será mostrado o conteudo do site*/
+line-height: 60px; 
+margin-top: 30px; 
+margin-left: auto;
+margin-right: auto;
+width:100%; 
+height:100%;
+text-align:left;
+font-family: helvica;
+font-size: 120%;
+color:white;
+}
+
+
+#produtos{/*Define como será a tabela de produtos*/
+ border: 1px solid rgb(212, 212, 212);  
+ width: 90%;
+ height:90%;
+ border-collapse:collapse;
+}
+
+#caixa_footer{/*div que contem o footer*/
+ bottom: 0;
+ left:0;
+ background-color: #484848 ; 
+ height:60px;
+ width:100%;
+ margin-left: auto;
+ margin-right: auto; 
+}
+
+#footer{/*define o footer*/
+text-align: center ; 
+width:100%;
+height: 60px;
+font-family: helvica;
+font-size: 100%;
+color:white;
+}
+
+
+
+td.tproduto{/*define celulas da tabela de produtos*/
+ border: 3px solid rgb(212, 212, 212); 
+ padding:1px;
+ width: 50px;
+ height:300px;
+ background-color:white;
+ text-align:center;
+ font-family:helvica;
+ color:#E55B3C;
+}
+
+td.pdetalhes{
+ border: 3px solid rgb(212, 212, 212); 
+ padding:1px;
+ width: 1000px;
+ height:300px;
+ background-color:white;
+ text-align:center;
+ font-family:helvica;
+ font-size:200%;
+ color:#4E9258;
+
+}
+
+.tinfo {
+ font-size:20px;
+ color:#4E9258;
+ font-family:helvica;
+ width:98%;
+ border-width: 1px;
+ border-color: #9dcc7a;
+ border-collapse: collapse;
+}
+
+.tinfo th {
+font-size:20px;
+background-color:#abd28e;
+border-width: 1px;
+padding: 8px;
+border-style: solid;
+border-color: #9dcc7a;
+text-align:left;
+}
+
+.tinfo tr {
+background-color:white;
+}
+
+.tinfo td {
+font-size:20px;
+border-width: 1px;
+padding: 8px;
+border-style: solid;
+border-color: rgb(212, 212, 212);
+}
+
+.cart{
+ font-size:20px;
+ color: #4E9258;
+ font-family:helvica;
+ width:98%;
+ border: 3px solid white; 
+ border-collapse: collapse;
+ background-color:rgb(212, 212, 212);
+
+}
+
+.cart td{
+ border:2px solid white;
+ padding:1px;
+ 
+}
+
+img.pcart{
+width: 80px;
+height: 80px;
+padding:1px;
+}
+
+
+
+
+img.icone{/*define icones*/
+width: 40px;
+height: 40px;
+}
+
+img.produto{/*define como serão mostrados os produtos*/
+  width:250px;
+  height:300px;
+  padding:2px;
+}
+
+
+
+.menu1{ /*define como será o menu1*/
+ border: 1px hidden black;
+ text-align: center;
+ word-spacing: 40px;
+ font-family: helvica;
+ font-size: x-large;
+ color: black;
+ height: 28px; 
+ width: thin; 
+ margin-left: auto;
+ margin-right: auto; 
+ background-color:white;
+ 
+}
+
+.menu2{ /*define como será o menu2 - menu fixo*/
+ position:fixed;
+ padding: 5px 0;
+ text-align: hight;
+ word-spacing: 2px;
+ font-family: helvica;
+ font-size: 90%;
+ color:white;
+ height: 40px; 
+ width: 100%;
+ top:0; 
+ left:0;
+ background-color:#E55B3C;
+ 
+}
+
+.info{
+ border: hidden;
+ text-align: center;
+ word-spacing: 2px;
+ font-family: helvica;
+ font-size: 150%;
+ color:white;
+ height: 50px; 
+ width: 100%;
+ background-color:#E55B3C;
+ padding:5px;
+}
+
+.infocart{
+ border:hidden;
+ text-align:right;
+ font-family:helvica;
+ font-size:100%;
+ color:#4E9258;
+ background-color:rgb(212, 212, 212);
+ padding:1px;
+ width:90%;
+ height:30px;
+}
+
+a.link1:link , a.link1:visited{ /*define como os links do site devem ficar antes e depois de serem clicados*/
+ color:black;
+ text-decoration:none;
+}
+
+
+a.link2:link, a.link2:visited { /*define como os links do site devem ficar antes e depois de serem clicados*/
+ color:white;
+ text-decoration:none;
+}
+
+a.link3:link, a.link3:visited { /*define como os links do site devem ficar antes e depois de serem clicados*/
+  text-decoration:none;
+  font: bold 11px Arial;
+  background-color: #abd28e;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+
+
+
+
+

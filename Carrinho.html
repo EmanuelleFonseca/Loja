@@ -1,6 +1,6 @@
 <html>
 <head>
-<title> Umbrellas | Login </title>
+<title> Umbrellas | Carrinho </title>
 <link rel="stylesheet" href="site.css"> <!-- importando folha de estilo - css -->
 </head>
 
@@ -36,39 +36,67 @@
 <!-- fim da div que contem o header-->
 <!--div de informacoes-->
 <div class="info">
-Olá! Preencha os campos abaixo para habilitar seu login.
+Carrinho de Compras
 </div>
 <!--fim da div de informacoes-->
 <!-- div com que delimita o espaco do conteudo do site-->
  <div id = "caixa_conteudo">
- <!--div que contem o formulario de login-->
+ <!--div que contem o carrinho de compras-->
   <div id = "conteudo">
-    <form id="cadastro" name="cadastro" method="post">
-     <table align = "center"> 
-       <td>Login:</td>
-       <td>
-	      <input name="login" id="login" size="70" maxlength="12" type="text">
-          <span>*</span>
-	   </td>
-    </tr>
-    <tr>
-       <td>Senha:</td>
-       <td>
-	      <input name="senha" id="senha" size="70" maxlength="12" type="password">
-          <span>*</span></td>
-       </tr>
+ <table  align = "center" class="cart" border="1">
+   <tr>
+      <td>Produto </td>
+	  <td>Valor Unid.</td>
+	  <td>Qtd.</td>
+	  <td>Subtotal</td>
+   </tr>
+   <tr>
       <td>
-        <input value="Login" type="submit"> 
+	     <img class="pcart" src="produto.png" alt = "Produto 1">
+		 <span>Produto 1</span>
 	  </td>
-    </tr>
-   </table>
-</form>
-	<!--fim do formulario de login-->
+	  <td>RS 60,00</td>
+	  <td><textarea cols="2" rows="2" name="qtd"></textarea><br></td>
+	  <td>RS 60,00</td>
+   </tr>
+   <tr>
+      <td>
+	     <img class="pcart" src="produto2.png" alt = "Produto 1">
+		 <span>Produto 2</span>
+	  </td>
+	  <td>RS 60,00</td>
+	  <td><textarea cols="2" rows="2" name="qtd"></textarea><br></td>
+	  <td>RS 60,00</td>
+   </tr>
+   <tr>
+      <td>
+	     <img class="pcart" src="produto3.png" alt = "Produto 1">
+		 <span>Produto 3</span>
+	  </td>
+	  <td>RS 60,00</td>
+	  <td><textarea cols="2" rows="2" name="qtd"></textarea><br></td>
+	  <td>RS 60,00</td>
+	  
+   </tr>
+</table>
+<div class="infocart">
+<span>Total: RS 180,00</span><br>
+<span>Frete:  </span><textarea cols="15" rows="2" name="qtd"></textarea><a href="#" class = "link3">Calcular</a>
+</div>
+
+<br/><br/>
+<div align = "letf">
+<a href="index.html" class = "link3">Voltar as compras</a>
+</div>
+<div align = "right">
+<a href="#" class = "link3">Finalizar Compras</a>
+</div>
+      
+	<!--fim do carrinho de compras-->
 	</div>
-	<!-- fim da div que contem o formulario de login-->
+	<!-- fim da div que contem o carrinho de compras-->
  </div>
 <!-- fim da div com que delimita o espaco do conteudo do site--> 
- 
 <!--div que contem o footer-->
  <div id="caixa_footer">
  <!--inicio do footer-->
