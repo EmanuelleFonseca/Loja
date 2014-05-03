@@ -92,7 +92,7 @@ td.tproduto{/*define celulas da tabela de produtos*/
  color:#E55B3C;
 }
 
-td.pdetalhes{
+td.pdetalhes{/*define a tabela com o produto e informacoes principais da page de detalhes*/
  border: 3px solid rgb(212, 212, 212); 
  padding:1px;
  width: 1000px;
@@ -105,7 +105,7 @@ td.pdetalhes{
 
 }
 
-.tinfo {
+.tinfo { /*define a tabela com caracteristicas tecnicas do produto na page de detalhes*/
  font-size:20px;
  color:#4E9258;
  font-family:helvica;
@@ -115,7 +115,7 @@ td.pdetalhes{
  border-collapse: collapse;
 }
 
-.tinfo th {
+.tinfo th { /*define  o elemento th da tabela com caracteristicas tecnicas do produto na page de detalhes*/ 
 font-size:20px;
 background-color:#abd28e;
 border-width: 1px;
@@ -125,11 +125,11 @@ border-color: #9dcc7a;
 text-align:left;
 }
 
-.tinfo tr {
+.tinfo tr { /*define  o elemento tr da tabela com caracteristicas tecnicas do produto na page de detalhes*/ 
 background-color:white;
 }
 
-.tinfo td {
+.tinfo td { /*define  o elemento td da tabela com caracteristicas tecnicas do produto na page de detalhes*/ 
 font-size:20px;
 border-width: 1px;
 padding: 8px;
@@ -137,7 +137,7 @@ border-style: solid;
 border-color: rgb(212, 212, 212);
 }
 
-.cart{
+.cart{ /*define o carrinho de compras*/
  font-size:20px;
  color: #4E9258;
  font-family:helvica;
@@ -148,13 +148,13 @@ border-color: rgb(212, 212, 212);
 
 }
 
-.cart td{
+.cart td{ /*define o elemento td do carrinho de compras*/
  border:2px solid white;
  padding:1px;
  
 }
 
-img.pcart{
+img.pcart{ /*define imagens do carrinho de compras*/
 width: 80px;
 height: 80px;
 padding:1px;
@@ -207,7 +207,7 @@ img.produto{/*define como serão mostrados os produtos*/
  
 }
 
-.info{
+.info{ /* define barra de informação das pages */
  border: hidden;
  text-align: center;
  word-spacing: 2px;
@@ -220,7 +220,7 @@ img.produto{/*define como serão mostrados os produtos*/
  padding:5px;
 }
 
-.infocart{
+.infocart{ /*define formatacao de informacoes de frete e total a pagar*/
  border:hidden;
  text-align:right;
  font-family:helvica;
